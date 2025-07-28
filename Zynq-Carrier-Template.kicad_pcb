@@ -1042,7 +1042,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "ff92d73b-8ec9-4663-afa8-004ce8def5a0")
+			(uuid "8987c977-e348-4169-8c51-ce00620d1158")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.125 90)
@@ -1064,7 +1064,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "312709e7-655a-46d3-a91a-d6c192cc102d")
+			(uuid "8987c977-e348-4169-8c51-ce00620d1158")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 90)
@@ -1086,7 +1086,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "230ef976-2d6a-4a63-9d90-bac93620242a")
+			(uuid "8987c977-e348-4169-8c51-ce00620d1158")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.wrl"
@@ -1098,6 +1098,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Imports/USB4105GFA/USB4105GFA--3DModel-STEP-510211.STEP"
+			(offset
+				(xyz 0 -1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -23555,49 +23566,9 @@
 		(net 318)
 		(net_name "/VBUS")
 		(layer "F.Cu")
-		(uuid "92da85a7-859c-432c-8d68-9e21616b72a5")
+		(uuid "412f32e7-98d1-4226-b1c2-49740e3c95f7")
 		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 133.760004 117.57) (xy 133.760004 117.77) (xy 134.060004 117.97) (xy 134.681004 117.67) (xy 134.060004 117.37)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 134.06602 117.372906) (xy 134.351417 117.510779) (xy 134.659196 117.659465) (xy 134.665155 117.666149)
-				(xy 134.664642 117.675089) (xy 134.659196 117.680535) (xy 134.066022 117.967092) (xy 134.057082 117.967605)
-				(xy 134.054443 117.966292) (xy 133.765214 117.773473) (xy 133.760231 117.766033) (xy 133.760004 117.763738)
-				(xy 133.760004 117.576261) (xy 133.763431 117.567988) (xy 133.765209 117.566529) (xy 134.054443 117.373706)
-				(xy 134.063228 117.371969)
-			)
-		)
-	)
-	(zone
-		(net 318)
-		(net_name "/VBUS")
-		(layer "F.Cu")
-		(uuid "dc2fe005-1d21-444e-b19d-aea5052d6aef")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
+		(hatch none 0.1)
 		(priority 30000)
 		(attr
 			(teardrop
@@ -23623,11 +23594,43 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 134.06602 117.372906) (xy 134.351417 117.510779) (xy 134.659196 117.659465) (xy 134.665155 117.666149)
-				(xy 134.664642 117.675089) (xy 134.659196 117.680535) (xy 134.066022 117.967092) (xy 134.057082 117.967605)
-				(xy 134.054443 117.966292) (xy 133.765214 117.773473) (xy 133.760231 117.766033) (xy 133.760004 117.763738)
-				(xy 133.760004 117.576261) (xy 133.763431 117.567988) (xy 133.765209 117.566529) (xy 134.054443 117.373706)
-				(xy 134.063228 117.371969)
+				(xy 133.760004 117.57) (xy 133.760004 117.77) (xy 134.060004 117.97) (xy 134.681004 117.67) (xy 134.060004 117.37)
+			)
+		)
+	)
+	(zone
+		(net 318)
+		(net_name "/VBUS")
+		(layer "F.Cu")
+		(uuid "623a5216-123b-4153-bcd3-af0607d1ab48")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 133.760004 117.57) (xy 133.760004 117.77) (xy 134.060004 117.97) (xy 134.681004 117.67) (xy 134.060004 117.37)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 133.760004 117.57) (xy 133.760004 117.77) (xy 134.060004 117.97) (xy 134.681004 117.67) (xy 134.060004 117.37)
 			)
 		)
 	)
