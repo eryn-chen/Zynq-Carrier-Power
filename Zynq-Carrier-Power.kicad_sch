@@ -12904,6 +12904,16 @@
 		)
 		(uuid "0d0251a7-784e-4461-b4bd-46926e6b66c6")
 	)
+	(label "SYS"
+		(at 358.14 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "160b0d2b-562e-4d72-92c7-1e591e4972e4")
+	)
 	(label "SCL"
 		(at 297.18 86.36 0)
 		(effects
@@ -13053,6 +13063,16 @@
 			(justify left bottom)
 		)
 		(uuid "a2ff11cb-fa27-4004-87a8-cafded519852")
+	)
+	(label "SW"
+		(at 349.25 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aafbb7cd-36dd-41bb-97e7-f617d85692cb")
 	)
 	(label "USB_SOM_D-"
 		(at 304.8 177.8 0)
