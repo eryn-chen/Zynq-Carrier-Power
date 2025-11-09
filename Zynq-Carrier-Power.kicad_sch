@@ -9674,6 +9674,12 @@
 		(uuid "3f6aa758-f7f4-4047-a8b0-388307fa10d5")
 	)
 	(junction
+		(at 323.85 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4779c122-e2ae-48ad-be8f-302a4f9cdd27")
+	)
+	(junction
 		(at 13.97 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9992,12 +9998,6 @@
 		(uuid "ec5c5f66-d646-4f1d-8a8c-b7cdef9ccc9b")
 	)
 	(junction
-		(at 323.85 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec8abcef-15e6-4960-8056-1204ddee731d")
-	)
-	(junction
 		(at 13.97 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10224,6 +10224,16 @@
 			(type default)
 		)
 		(uuid "0fb410a6-a100-44be-8273-147fab625232")
+	)
+	(wire
+		(pts
+			(xy 323.85 153.67) (xy 323.85 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100e3063-db62-43cc-aa08-b649adc41f32")
 	)
 	(wire
 		(pts
@@ -11154,6 +11164,16 @@
 			(type default)
 		)
 		(uuid "7519ebbe-11bb-4cbf-8412-d3cd61af7d1b")
+	)
+	(wire
+		(pts
+			(xy 316.23 153.67) (xy 323.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759ec2c2-0c05-4208-bd65-a16b8a89c741")
 	)
 	(wire
 		(pts
@@ -12404,16 +12424,6 @@
 			(type default)
 		)
 		(uuid "f17c5317-b355-437b-bbc8-2ddad64145bc")
-	)
-	(wire
-		(pts
-			(xy 323.85 156.21) (xy 323.85 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1f1704c-5904-4dc8-8b53-fcf1f79a11d4")
 	)
 	(wire
 		(pts
@@ -17487,73 +17497,6 @@
 			(project "Zynq-Carrier-Template"
 				(path "/e0c786d3-4c71-488f-94d1-904eb052c2b4"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 320.04 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "785642ce-b95c-48e0-b975-04b57215aa6a")
-		(property "Reference" "R4"
-			(at 320.04 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 320.04 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 320.294 152.654 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 320.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 320.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd53dda4-8d68-4718-b091-70edbddf76a1")
-		)
-		(pin "1"
-			(uuid "ab520cea-35cc-427d-adfc-e14473619622")
-		)
-		(instances
-			(project "Zynq-Carrier-Template"
-				(path "/e0c786d3-4c71-488f-94d1-904eb052c2b4"
-					(reference "R4")
 					(unit 1)
 				)
 			)
